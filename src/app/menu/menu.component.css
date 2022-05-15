@@ -1,0 +1,78 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(185, 186, 187); 
+    
+  } 
+
+  .pichinchaLogo{
+    height:100%;
+    padding-left: 15px;
+  }
+
+  .split{
+    display: flex;
+  outline: 1px solid gray;
+  height: 100vh;
+  flex-direction: column;
+
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  outline: 1px solid #8d8d8c;
+  display: flex;
+  height: inherit;
+}
+
+
+
+.left{
+  flex: 25% 0 0;
+}
+.left_box{
+    height: 70px;
+    width: 100%;
+    outline: 0.5px solid #a3a3a3;;
+    display: flex;
+    justify-content: left;
+    padding-left: 3%;
+    align-items: center;
+    transition:0.5s
+}
+.left_box:hover{
+  background:#f5da0f
+}
+
+
