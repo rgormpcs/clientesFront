@@ -1,35 +1,24 @@
 <ul class="navbar">
-  <ul>
-    <li>
-      <img class="pichinchaLogo" alt="Pichincha Logo" src="../../assets/images/MainPichincha.png" />
-    </li>
-  </ul>
-  <ul>
-    <li>
-      <a href="https://www.linkedin.com/in/ricardo-ortiz-649781152/" target="_blank">
-        <img width="40px" alt="linkedin" src="../../assets/images/linkedin.png" />
-      </a>
-    </li>
-  </ul>
+    <ul>
+        <li>
+            <img class="pichinchaLogo" alt="Pichincha Logo" src="../../assets/images/MainPichincha.png" />
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/ricardo-ortiz-649781152/" target="_blank">
+                <img width="40px" alt="linkedin" src="../../assets/images/linkedin.png" />
+            </a>
+        </li>
+    </ul>
 
 </ul>
 
 <section class="container">
-  <div class="left">
-    <div class="left_box" *ngFor="let menu of menuItems">{{menu.name}}</div>
-  </div>
-  <section class="content-mesage">
-    <h1>This is html an css flexbox example </h1>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-      software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
-  </section>
+    <div class="left">
+        <div class="left_box" *ngFor="let menu of menuItems" (click)="redirect(menu)">{{menu.name}}</div>
+    </div>
+    <section class="content-mesage">
+        <router-outlet></router-outlet>
+    </section>
 </section>
-
-
-  

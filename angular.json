@@ -102,5 +102,8 @@
       }
     }
   },
-  "defaultProject": "clientesFront"
+  "defaultProject": "clientesFront",
+  "cli": {
+    "analytics": "d01a98bd-d47d-4f9f-a96d-ca48494991db"
+  }
 }
