@@ -15,7 +15,8 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-body {
+.content-mesage {
     display: flex;
     flex-direction: center;
+    background-color: ;
 }

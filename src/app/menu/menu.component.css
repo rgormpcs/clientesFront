@@ -1,71 +1,97 @@
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .navbar {
-  display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgb(185, 186, 187);
-
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(185, 186, 187);
 }
 
 .pichinchaLogo {
-  height: 100%;
-  padding-left: 15px;
+    height: 100%;
+    padding-left: 15px;
 }
 
 .split {
-  display: flex;
-  outline: 1px solid gray;
-  height: 100vh;
-  flex-direction: column;
-
+    display: flex;
+    outline: 1px solid gray;
+    height: 100vh;
+    flex-direction: column;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  height: inherit;
+    display: flex;
+    height: inherit;
+}
+
+.content-mesage {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
 }
 
 .left {
-  flex: 25% 0 0;
-  height: 100vh;
-  outline: 1px solid gray;
+    flex: 25% 0 0;
+    height: 100vh;
+    outline: 1px solid gray;
 }
 
 .left_box {
-  height: 70px;
-  width: 100%;
-  outline: 0.5px solid #a3a3a3;
-  display: flex;
-  justify-content: left;
-  padding-left: 3%;
-  align-items: center;
-  transition: 0.5s
+    height: 70px;
+    width: 100%;
+    outline: 0.5px solid #a3a3a3;
+    display: flex;
+    justify-content: left;
+    padding-left: 3%;
+    align-items: center;
+    transition: 0.5s
 }
 
 .left_box:hover {
-  background: #f5da0f
+    background: #f5da0f
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+body {
+    display: flex;
+    flex-direction: center;
 }
